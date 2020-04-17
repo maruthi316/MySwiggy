@@ -48,5 +48,8 @@ urlpatterns = [
     #Type
     path('open_type/', views.open_type, name="open_type"),
     path('save_type/', views.save_type, name="save_type"),
+    path('update_type/', views.update_type, name="update_type"),
+    path('update_type_data/', views.update_type_data, name="update_type_data"),
+    path('delete_type/', views.delete_type, name='delete_type'),
 
 ]
